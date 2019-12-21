@@ -1,0 +1,26 @@
+{
+  "name": "fake-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack-config.js",
+  "bin": {
+    "fake-webpack": "./bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.7.4",
+    "@babel/traverse": "^7.7.4",
+    "@babel/types": "^7.7.4",
+    "babylon": "^6.18.0",
+    "ejs": "^3.0.1",
+    "tapable": "^1.1.3"
+  }
+}
